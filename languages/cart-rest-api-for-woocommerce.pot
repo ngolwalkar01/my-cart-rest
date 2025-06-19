@@ -1,0 +1,263 @@
+# Copyright (C) 2024 Navneet Golwalkar
+# This file is distributed under the same license as the My Cart REST plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: My Cart REST 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/my-cart-rest\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-27T10:11:14+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: cart-rest-api-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "My Cart REST"
+msgstr ""
+
+#. Description of the plugin
+msgid "Make your WooCommerce store headless with My Cart Rest, a REST API designed for decoupling."
+msgstr ""
+
+#. Author of the plugin
+msgid "Navneet Golwalkar"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:102
+#: includes/api/class-wc-rest-cart-controller.php:127
+msgid "The cart item key is what identifies the item in the cart."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:2153
+msgid "Invalid subscription ID."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:2180
+msgid "Subscription does not have valid frequency or interval."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:2266
+msgid "product_id is required"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:2270
+msgid "subscription_id is required"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:2278
+msgid "Subscription cannot be edited. Please get in touch with us for assistance"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:2327
+msgid "Not a valid process"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:2337
+msgid "Subscription doesn't support product management"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:2343
+msgid "No Subscription scheme found"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:2379
+msgid "Something went wrong, Please try again!"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:2428
+msgid "Product couldn't get added to the cart!"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:2458
+#: includes/api/class-wc-rest-cart-controller.php:3830
+msgid "There are no items in the cart!"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:2906
+msgid "Order not found"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:2912
+msgid "You are not allowed to view this order"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3024
+msgid "Logged out successfully."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3037
+msgid "Cart item not found"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3056
+msgid "Invalid subscription scheme"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3103
+msgid "User not logged in"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3140
+msgid "%s %s for %d units"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3250
+msgid "Invalid product."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3437
+msgid "Cart customer set successfully."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3467
+msgid "Customer details set successfully."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3637
+msgid "Order created successfully."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3677
+msgid "Invalid package ID."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3702
+msgid "Shipping method set successfully."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3706
+msgid "Invalid shipping method."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3766
+msgid "Coupon applied successfully."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3768
+msgid "Failed to apply coupon. Please check the coupon code."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3771
+msgid "Coupon already applied."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3785
+msgid "Coupon removed successfully."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3787
+msgid "Failed to remove coupon. Please try again."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3790
+msgid "Coupon not found in cart."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3841
+msgid "Cart is cleared."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3843
+msgid "Clearing the cart failed!"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3849
+msgid "Product ID number is required!"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3853
+msgid "Product ID must be numeric!"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3860
+msgid "Quantity must be numeric!"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3880
+msgid "You cannot add that amount of &quot;%1$s&quot; to the cart because there is not enough stock (%2$s remaining)."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3901
+msgid "Warning: This product does not exist!"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3911
+msgid "You cannot add another \"%s\" to your cart."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3918
+msgid "Sorry, this product cannot be purchased."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3923
+msgid "You cannot add \"%s\" to the cart because the product is out of stock."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3933
+msgid "You cannot add that amount to the cart — we have %1$s in stock and you already have %2$s in your cart."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3970
+msgid "You cannot add \"%s\" to your cart."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3979
+msgid "Item has been removed from cart."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3981
+msgid "Unable to remove item from cart."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3984
+#: includes/api/class-wc-rest-cart-controller.php:3998
+#: includes/api/class-wc-rest-cart-controller.php:4043
+msgid "Cart item key is required!"
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3993
+msgid "Item has been restored to the cart."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:3995
+msgid "Unable to restore item to the cart."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:4033
+msgid "The quantity for \"%1$s\" has increased to \"%2$s\"."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:4035
+msgid "The quantity for \"%1$s\" has decreased to \"%2$s\"."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:4037
+msgid "The quantity for \"%s\" has not changed."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:4040
+msgid "Unable to update item quantity in cart."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:4049
+msgid "No items in cart to calculate totals."
+msgstr ""
+
+#: includes/api/class-wc-rest-cart-controller.php:4054
+msgid "Cart totals have been calculated."
+msgstr ""
+
+#: includes/class-mycart.php:139
+msgid "Authentication is invalid. Please check the authentication information is correct and try again. Authentication may also only work on a secure connection."
+msgstr ""
+
+#: includes/class-mycart.php:216
+msgid "You are already authenticating as the customer. Cannot set cart key as the user."
+msgstr ""
+
+#: includes/class-mycart.php:225
+msgid "Must authenticate customer as the cart key provided is a registered customer."
+msgstr ""
